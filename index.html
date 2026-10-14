@@ -2,9 +2,54 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>我的第一個網頁</title>
+    <title>CLAN-8 的個人網頁</title>
+    <style>
+        /* 這裡叫做 CSS，用來控制網頁的外觀 */
+        body {
+            background-color: #1a1a2e; /* 網頁背景顏色：深藍色 */
+            color: #ffffff;            /* 文字顏色：白色 */
+            font-family: 'Arial', sans-serif;
+            text-align: center;        /* 所有文字置中 */
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #00ffff;            /* 大標題顏色：青色 */
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        /* 這裡用來設計按鈕的外觀 */
+        .my-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #ff2a74; /* 按鈕顏色：潮流粉紅 */
+            color: white;
+            text-decoration: none;     /* 移除超連結的底線 */
+            font-weight: bold;
+            border-radius: 50px;       /* 讓按鈕變成圓角 */
+            box-shadow: 0 4px 15px rgba(255, 42, 116, 0.4); /* 按鈕發光陰影 */
+            transition: 0.3s;          /* 讓滑鼠移過去的動畫變順暢 */
+        }
+
+        /* 當滑鼠移到按鈕上時的變化 */
+        .my-button:hover {
+            background-color: #ff5e97;
+            transform: scale(1.05);    /* 按鈕稍微放大一點點 */
+        }
+    </style>
 </head>
 <body>
-    <h1>恭喜！我的 GitHub Pages 網頁從頭開始架設成功了！</h1>
+
+    <h1>欢迎來到 CLAN-8 的全新個人網頁！</h1>
+    <p>這是我用 GitHub Pages 獨立架設的第一個互動網頁。</p>
+    
+    <br><br>
+
+    <!-- 這裡放您的社群連結，請把引號內的網址換成您自己的連結 -->
+    <a href="https://instagram.com" target="_blank" class="my-button">追蹤我的 Instagram</a>
+    <a href="https://github.com" target="_blank" class="my-button">參觀我的 GitHub</a>
+
 </body>
 </html>
